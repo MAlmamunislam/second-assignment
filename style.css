@@ -69,11 +69,24 @@ body {
      height: 44px;
      cursor: pointer;
 }
-
+@keyframes bounce {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-15px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
 .bt {
      cursor: pointer;
+     
 }
-
+.new{
+     animation: bounce 1s infinite;
+}
 .bt:hover {
      background-color: rgb(252, 1, 1);
      color: #2fff00;
@@ -361,11 +374,13 @@ body {
 }
 /* meet the host desing */
 .host-container {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-bottom: 120px;
     border-radius: 15px;
     background-color: #533C72;
+    height: 300px;
+    width: 1200px;
 }
 
 .container {
@@ -411,4 +426,42 @@ body {
 .alex{
     margin-bottom: 9px;
     font-size: 30px;
+}
+/* footer section style */
+.section{
+    background-image: url(/assets/footer-bg.png);
+    width: full;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* max-width: 100%; */
+    height: 412px;
+}
+ 
+.container-h3 {
+font-size: 48px;
+width: 410px;
+height: 60px;
+margin-bottom: 20px;
+}
+
+.footter {
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+.copy-right{
+    color:#FAFAFA;
+    margin-top: 30px;
 }
