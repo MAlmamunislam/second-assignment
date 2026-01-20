@@ -182,101 +182,180 @@ body {
      display: flex;
      gap: 16px;
      justify-content: center;
-     
+
 }
+
 /* about section style */
 .about-section {
-    text-align: center;
+     text-align: center;
 
 }
 
 .border {
-    border-bottom: 2px solid #3116e0;
-    margin: 80px 200px;
+     border-bottom: 2px solid #3116e0;
+     margin: 80px 200px;
 }
 
 .section-discription h1 {
-    font-weight: 900;
-    color: #FFFFFF;
-    font-size: 48px;
-    margin-top: 150px;
+     font-weight: 900;
+     color: #FFFFFF;
+     font-size: 48px;
+     margin-top: 150px;
 }
 
 .section-discription p {
-    font-weight: 400;
-    color: #FFFFFF;
-    font-size: 16px;
-    margin-bottom: 80px;
+     font-weight: 400;
+     color: #FFFFFF;
+     font-size: 16px;
+     margin-bottom: 80px;
 }
 
 .dashbord {
-    display: flex;
-    justify-content: space-around;
+     display: flex;
+     justify-content: space-around;
 
 }
 
 .dashbord h1 {
-    color: #00FF88;
-    font-size: 48px;
+     color: #00FF88;
+     font-size: 48px;
 }
 
 .dashbord p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #FFFFFF;
-    padding: 16px;
+     font-size: 16px;
+     font-weight: 400;
+     color: #FFFFFF;
+     padding: 16px;
 }
 
 .dashbord-div {
-    text-align: center;
+     text-align: center;
 }
-.techWave>*{
-   background-color: #351165;
-   padding: 40px;
-   border-radius: 40px;
+
+.techWave>* {
+     background-color: #351165;
+     padding: 40px;
+     border-radius: 40px;
 }
-.audio{
+
+.audio {
      grid-area: audio;
-     
+
 }
-.device{
+
+.device {
      grid-area: device;
 }
-.global{
+
+.global {
      grid-area: global;
 }
-.enterview{
+
+.enterview {
      grid-area: enterview;
 }
-.resource{
+
+.resource {
      grid-area: resource;
 }
-.techWave{
+
+.techWave {
      display: grid;
      gap: 30px;
      margin-left: 200px;
      margin-right: 200px;
      justify-content: center;
-     grid-template-areas: 
-     "audio device device "
-     "audio global global"
-     " enterview enterview resource "
-     
+     grid-template-areas:
+          "audio device device "
+          "audio global global"
+          " enterview enterview resource "
+
      ;
 
 }
-.parent-container{
-background-color: #230E3D;
+
+.parent-container {
+     background-color: #230E3D;
 }
 
-.choose{
+.choose {
      text-align: center;
      font-size: 48px;
      padding: 80px;
-     /* font-weight: 800; */
      font: bold;
      color: #FFFFFF;
-     /* margin-top: 200px; */
-     /* margin-bottom: 120px; */
+
+
+}
+
+/* featured episodes style */
+
+.featured-container {
+     margin-top: 120px;
+     margin-bottom: 120px;
+
+}
+
+
+
+.featured-container h1 {
+     text-align: center;
+     font: bold;
+     font-size: 48px;
+     color: #FFFFFF;
+     margin-bottom: 40px;
+
+}
+
+.container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     margin: 0 auto;
+     gap: 30px;
+}
+
+
+
+.container-box {
+     border-radius: 24px;
+     background-color: #250D44;
+}
+
+.container-box iframe {
+     width: 380px;
+     height: 214px;
+     border-radius: 20px;
+
+}
+
+
+
+.container h3 {
+     font-size: 22px;
+     color: #FFFFFF;
+     padding: 24px;
+
+}
+
+.container-box p {
+     font-size: 16px;
+     color: gray;
+     padding: 24px;
+}
+
+.container img {
+     color: white;
+}
+
+.clock {
+     display: flex;
+     font-size: 20px;
+     gap: 4px;
+     padding: 24px;
+
+}
+
+.min {
+     color: #00FF88;
 
 }
