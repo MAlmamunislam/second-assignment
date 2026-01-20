@@ -182,5 +182,101 @@ body {
      display: flex;
      gap: 16px;
      justify-content: center;
-     border
+     
+}
+/* about section style */
+.about-section {
+    text-align: center;
+
+}
+
+.border {
+    border-bottom: 2px solid #3116e0;
+    margin: 80px 200px;
+}
+
+.section-discription h1 {
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 48px;
+    margin-top: 150px;
+}
+
+.section-discription p {
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+.dashbord {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.dashbord h1 {
+    color: #00FF88;
+    font-size: 48px;
+}
+
+.dashbord p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 16px;
+}
+
+.dashbord-div {
+    text-align: center;
+}
+.techWave>*{
+   background-color: #351165;
+   padding: 40px;
+   border-radius: 40px;
+}
+.audio{
+     grid-area: audio;
+     
+}
+.device{
+     grid-area: device;
+}
+.global{
+     grid-area: global;
+}
+.enterview{
+     grid-area: enterview;
+}
+.resource{
+     grid-area: resource;
+}
+.techWave{
+     display: grid;
+     gap: 30px;
+     margin-left: 200px;
+     margin-right: 200px;
+     justify-content: center;
+     grid-template-areas: 
+     "audio device device "
+     "audio global global"
+     " enterview enterview resource "
+     
+     ;
+
+}
+.parent-container{
+background-color: #230E3D;
+}
+
+.choose{
+     text-align: center;
+     font-size: 48px;
+     padding: 80px;
+     /* font-weight: 800; */
+     font: bold;
+     color: #FFFFFF;
+     /* margin-top: 200px; */
+     /* margin-bottom: 120px; */
+
 }
