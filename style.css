@@ -26,8 +26,9 @@ body {
 
 
 }
-.hamburger{
-     display:none ;
+
+.hamburger {
+     display: none;
 }
 
 .navbar {
@@ -72,24 +73,30 @@ body {
      height: 44px;
      cursor: pointer;
 }
+
 @keyframes bounce {
-      0% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-15px);
-      }
-      100% {
-        transform: translateY(0);
-      }
-    }
+     0% {
+          transform: translateY(0);
+     }
+
+     50% {
+          transform: translateY(-15px);
+     }
+
+     100% {
+          transform: translateY(0);
+     }
+}
+
 .bt {
      cursor: pointer;
-     
+
 }
-.new{
+
+.new {
      animation: bounce 1s infinite;
 }
+
 .bt:hover {
      background-color: rgb(241, 125, 125);
      color: #99e488;
@@ -230,7 +237,7 @@ body {
      display: flex;
      justify-content: space-around;
      width: 100%;
-     
+
 
 }
 
@@ -377,281 +384,299 @@ body {
      color: #00FF88;
 
 }
+
 /* meet the host desing */
 .host-container {
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 120px;
-    border-radius: 15px;
-    background-color: #533C72;
-    height: 300px;
-    width: 1200px;
+     margin-left: 150px;
+     margin-right: 150px;
+     margin-bottom: 120px;
+     border-radius: 15px;
+     background-color: #533C72;
+     height: 300px;
+     width: 1200px;
 }
 
 .container {
-    color: #FFFFFF;
-    font-size: 48px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 22px;
+     color: #FFFFFF;
+     font-size: 48px;
+     font-weight: bold;
+     display: flex;
+     justify-content: center;
+     margin-bottom: 22px;
 
 }
 
 .host-desingh {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    color: white;
-    height: 280px;
-    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 30px;
+     color: white;
+     height: 280px;
+
 
 }
 
 .host-text {
-    display: grid;
+     display: grid;
 
 }
 
 .social-link {
-    width: 184px;
-    height: 40px;
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 15px;
-    margin-top: 20px;
+     width: 184px;
+     height: 40px;
+     /* Auto layout */
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: flex-start;
+     gap: 15px;
+     margin-top: 20px;
 
 }
 
-.alex{
-    margin-bottom: 9px;
-    font-size: 30px;
+.alex {
+     margin-bottom: 9px;
+     font-size: 30px;
 }
+
 /* footer section style */
-.section{
-    background-image: url("./assets/footer-bg.png");
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* max-width: 100%; */
-    height: 412px;
+.section {
+     background-image: url("./assets/footer-bg.png");
+     width: 100%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     /* max-width: 100%; */
+     height: 412px;
 }
- 
+
 .container-h3 {
-font-size: 48px;
-width: 410px;
-height: 60px;
-margin-bottom: 20px;
+     font-size: 48px;
+     width: 410px;
+     height: 60px;
+     margin-bottom: 20px;
 }
 
 .footter {
-   display: grid;
-   justify-content: center;
-   align-items: center;
-   
+     display: grid;
+     justify-content: center;
+     align-items: center;
+
 }
 
-.icon{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    color: white;
+.icon {
+     display: flex;
+     align-items: center;
+     gap: 15px;
+     color: white;
 }
-.copy-right{
-    color:#FAFAFA;
-    margin-top: 30px;
+
+.copy-right {
+     color: #FAFAFA;
+     margin-top: 30px;
 }
-@media (min-width:576px ) and (max-width:1970px) {
-    .menu{
-     display: none;   
-    }
+
+@media (min-width:576px) and (max-width:1970px) {
+     .menu {
+          display: none;
+     }
 
 }
 
 /* --- Mobile Responsive Styles --- */
 
 @media (max-width: 576px) {
-        .container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
-    }
+     .container {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          gap: 30px;
+     }
 
-    .container-box iframe {
-        width:100% ;
-        height: 369px;
-        border-radius: 20px;
-    }
-        .nav-links {
-        display: none; 
-    }
-    .nav-btn {
-        display: none; 
-    }
-    .hamburger {
-    display: block; 
-    cursor: pointer;
-}
-   
-    .navbar {
-        padding: 16px 20px;
-        flex-direction: row; 
-        justify-content: space-between;
-        height: 70px;
-    }
-    .hamburger{
-     display: block;
-    cursor: pointer;
-    font-size: 24px;
-    }
+     .container-box iframe {
+          width: 100%;
+          height: 369px;
+          border-radius: 20px;
+     }
 
-  
+     .nav-links {
+          display: none;
+     }
 
-    /* Banner Responsive */
-    .banner-section {
-        height: auto;
-        padding: 50px 20px;
-    }
+     .nav-btn {
+          display: none;
+     }
 
-    .tech-text {
-        font-size: 36px; 
-    }
+     .hamburger {
+          display: block;
+          cursor: pointer;
+     }
 
-    .banner-description {
-        text-align: center;
-        font-size: 14px;
-    }
+     .navbar {
+          padding: 16px 20px;
+          flex-direction: row;
+          justify-content: space-between;
+          height: 70px;
+     }
 
-    .banner-btn {
-        flex-direction: column; 
-        align-items: center;
-    }
-
-    .preant-img {
-        margin-top: 50px;
-    }
-
-    /* About & Dashboard Responsive */
-    .border {
-        margin: 40px 20px;
-    }
-
-    .section-discription h1 {
-        font-size: 28px;
-    }
-
-    .dashbord {
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 20px;
-    }
-
-    .dashbord h1 {
-        font-size: 32px;
-    }
-
-    /* Why Choose TechWave  */
-    .techWave {
-        grid-template-areas: 
-            "audio"
-            "device"
-            "global"
-            "enterview"
-            "resource";
-        grid-template-columns: 1fr; 
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .audio p, .device p, .global p, .resource p {
-        width: 100%; 
-    }
-
-    .choose {
-        font-size: 28px;
-        padding: 40px 20px;
-    }
-
-    .parent-container {
-        padding: 20px 0;
-    }
-
-    /* Featured Episodes Responsive */
-    .featured-container h1 {
-        font-size: 28px;
-        margin-bottom: 24px;
-        margin-top:60px;
-
-    }
-
-    .container {
-        grid-template-columns: 1fr; 
-        padding: 0 20px;
-    }
-
-    .container-box iframe {
-        width: 100%; 
-        height: 200px;
-    }
-
-    /* Meet the Host Responsive */
-    .host-container {
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 90%;
-        max-width: 1200px;
-        height: auto;
-        padding: 20px;
-    }
-    .container h2{
-     font-size: 32px;
-     text-align: center;
-     margin-bottom: 24px;
-    }
-
-    .host-desingh {
-        flex-direction: column; 
-        width: 100%;
-        height: auto;
-        text-align: center;
-    }
-    .host-text p{
-     font-size: 16px;
-     color: #e9cece;
-     
-    }
-
-    .social-link {
-        justify-content: center;
-        margin: 20px auto;
-        gap: 8px;
-    }
-
-    /* Footer Responsive */
-    .section {
-        height: 100%;
-        width: 100%;
-        padding: 40px 20px;
-
-    }
-    
+     .hamburger {
+          display: block;
+          cursor: pointer;
+          font-size: 24px;
+     }
 
 
-    .container-h3 {
-        width: 100%;
-        text-align: center;
-        font-size: 32px;
-    }
 
-    .icon {
-        flex-wrap: wrap; 
-        justify-content: center;
-    }
+     /* Banner Responsive */
+     .banner-section {
+          height: auto;
+          padding: 50px 20px;
+     }
+
+     .tech-text {
+          font-size: 36px;
+     }
+
+     .banner-description {
+          text-align: center;
+          font-size: 14px;
+     }
+
+     .banner-btn {
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .preant-img {
+          margin-top: 50px;
+     }
+
+     /* About & Dashboard Responsive */
+     .border {
+          margin: 40px 20px;
+     }
+
+     .section-discription h1 {
+          font-size: 28px;
+     }
+
+     .dashbord {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 20px;
+     }
+
+     .dashbord h1 {
+          font-size: 40px;
+          font: weight 900px;
+     }
+     .dashbord p{
+          font-size: 16px;
+     }
+
+     /* Why Choose TechWave  */
+     .techWave {
+          grid-template-areas:
+               "audio"
+               "device"
+               "global"
+               "enterview"
+               "resource";
+          grid-template-columns: 1fr;
+          margin-left: 20px;
+          margin-right: 20px;
+     }
+
+     .audio p,
+     .device p,
+     .global p,
+     .resource p {
+          width: 100%;
+     }
+
+     .choose {
+          font-size: 28px;
+          padding: 40px 20px;
+     }
+
+     .parent-container {
+          padding: 20px 0;
+     }
+
+     /* Featured Episodes Responsive */
+     .featured-container h1 {
+          font-size: 28px;
+          margin-bottom: 24px;
+          margin-top: 60px;
+
+     }
+
+     .container {
+          grid-template-columns: 1fr;
+          padding: 0 20px;
+     }
+
+     .container-box iframe {
+          width: 100%;
+          height: 200px;
+     }
+
+     /* Meet the Host Responsive */
+     .host-container {
+          margin-left: 20px;
+          margin-right: 20px;
+          width: 90%;
+          max-width: 1200px;
+          height: auto;
+          padding: 20px;
+     }
+
+     .container h2 {
+          font-size: 32px;
+          text-align: center;
+          margin-bottom: 24px;
+     }
+
+     .host-desingh {
+          flex-direction: column;
+          width: 100%;
+          height: auto;
+          text-align: center;
+     }
+
+     .host-text p {
+          font-size: 16px;
+          color: #e9cece;
+
+     }
+
+     .social-link {
+          justify-content: center;
+          margin: 20px auto;
+          gap: 8px;
+     }
+
+     /* Footer Responsive */
+     .section {
+          height: 100%;
+          width: 100%;
+          padding: 40px 20px;
+
+     }
+
+
+
+     .container-h3 {
+          width: 100%;
+          text-align: center;
+          font-size: 32px;
+     }
+
+     .icon {
+          flex-wrap: wrap;
+          justify-content: center;
+     }
 }
