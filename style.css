@@ -26,6 +26,9 @@ body {
 
 
 }
+.hamburger{
+     display:none ;
+}
 
 .navbar {
      height: 92px;
@@ -88,8 +91,8 @@ body {
      animation: bounce 1s infinite;
 }
 .bt:hover {
-     background-color: rgb(252, 1, 1);
-     color: #2fff00;
+     background-color: rgb(241, 125, 125);
+     color: #99e488;
      border-radius: 5px;
 }
 
@@ -226,6 +229,8 @@ body {
 .dashbord {
      display: flex;
      justify-content: space-around;
+     width: 100%;
+     
 
 }
 
@@ -399,7 +404,6 @@ body {
     align-items: center;
     gap: 30px;
     color: white;
-    width: 1350px;
     height: 280px;
     
 
@@ -430,7 +434,7 @@ body {
 /* footer section style */
 .section{
     background-image: url("./assets/footer-bg.png");
-    width: full;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -482,7 +486,7 @@ margin-bottom: 20px;
     }
 
     .container-box iframe {
-        width: 565px;
+        width:100% ;
         height: 369px;
         border-radius: 20px;
     }
@@ -492,21 +496,24 @@ margin-bottom: 20px;
     .nav-btn {
         display: none; 
     }
-
+    .hamburger {
+    display: block; 
+    cursor: pointer;
+}
+   
     .navbar {
         padding: 16px 20px;
         flex-direction: row; 
         justify-content: space-between;
         height: 70px;
     }
-
-    /* .navbar::after {
-        font-weight: 900;
-        color: white;
-        font-size: 24px;
-        cursor: pointer;
+    .hamburger{
+     display: block;
+    cursor: pointer;
+    font-size: 24px;
     }
-   */
+
+  
 
     /* Banner Responsive */
     .banner-section {
@@ -550,7 +557,7 @@ margin-bottom: 20px;
         font-size: 32px;
     }
 
-    /* Why Choose TechWave (Grid Area Fix) */
+    /* Why Choose TechWave  */
     .techWave {
         grid-template-areas: 
             "audio"
@@ -579,6 +586,9 @@ margin-bottom: 20px;
     /* Featured Episodes Responsive */
     .featured-container h1 {
         font-size: 28px;
+        margin-bottom: 24px;
+        margin-top:60px;
+
     }
 
     .container {
@@ -595,8 +605,15 @@ margin-bottom: 20px;
     .host-container {
         margin-left: 20px;
         margin-right: 20px;
+        width: 90%;
+        max-width: 1200px;
         height: auto;
         padding: 20px;
+    }
+    .container h2{
+     font-size: 32px;
+     text-align: center;
+     margin-bottom: 24px;
     }
 
     .host-desingh {
@@ -605,17 +622,27 @@ margin-bottom: 20px;
         height: auto;
         text-align: center;
     }
+    .host-text p{
+     font-size: 16px;
+     color: #e9cece;
+     
+    }
 
     .social-link {
         justify-content: center;
         margin: 20px auto;
+        gap: 8px;
     }
 
     /* Footer Responsive */
     .section {
-        height: auto;
+        height: 100%;
+        width: 100%;
         padding: 40px 20px;
+
     }
+    
+
 
     .container-h3 {
         width: 100%;
